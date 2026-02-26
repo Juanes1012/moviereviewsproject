@@ -1,0 +1,62 @@
+[
+    {
+        "title":"Inception",
+        "plot":"A thief who steals corporate secrets through dream-sharing technology",
+        "genre":"Sci-Fi",
+        "year":2010
+    },
+    {
+        "title":"Titanic",
+        "plot":"A love story set during the sinking of the Titanic",
+        "genre":"Romance",
+        "year":1997
+    },
+    {
+        "title":"The Dark Knight",
+        "plot":"Batman faces the Joker in Gotham City",
+        "genre":"Action",
+        "year":2008
+    },
+    {
+        "title":"Interstellar",
+        "plot":"A team travels through a wormhole in space",
+        "genre":"Sci-Fi",
+        "year":2014
+    },
+    {
+        "title":"Gladiator",
+        "plot":"A former Roman General seeks revenge",
+        "genre":"Action",
+        "year":2000
+    },
+    {
+        "title":"The Notebook",
+        "plot":"A romantic drama about enduring love",
+        "genre":"Romance",
+        "year":2004
+    },
+    {
+        "title":"Avatar",
+        "plot":"A marine on an alien planet",
+        "genre":"Sci-Fi",
+        "year":2009
+    },
+    {
+        "title":"Joker",
+        "plot":"A failed comedian turns to crime",
+        "genre":"Drama",
+        "year":2019
+    },
+    {
+        "title":"Toy Story",
+        "plot":"Toys come to life when humans are not around",
+        "genre":"Animation",
+        "year":1995
+    },
+    {
+        "title":"The Matrix",
+        "plot":"A hacker discovers reality is a simulation",
+        "genre":"Sci-Fi",
+        "year":1999
+    }
+]
