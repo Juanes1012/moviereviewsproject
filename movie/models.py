@@ -5,7 +5,7 @@ class Movie(models.Model):
     description = models.TextField()
     genre = models.CharField(max_length=100)
     year = models.IntegerField()
-    image = models.ImageField(upload_to='movie/images/', default='movie/images/default.jpg')
+    image = models.ImageField(upload_to='movies/', null=True, blank=True)
 
     def __str__(self):
         return self.title

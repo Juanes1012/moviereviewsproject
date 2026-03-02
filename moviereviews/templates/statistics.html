@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1 class="text-center mb-4">Movies Statistics</h1>
+
+{% if graphic_year %}
+<h3 class="text-center">Movies per Year</h3>
+<div class="text-center mb-5">
+    <img src="data:image/png;base64,{{ graphic_year }}" class="img-fluid"/>
+</div>
+{% else %}
+<p class="text-center">No data available for Year graph.</p>
+{% endif %}
+
+{% if graphic_genre %}
+<h3 class="text-center">Movies per Genre</h3>
+<div class="text-center">
+    <img src="data:image/png;base64,{{ graphic_genre }}" class="img-fluid"/>
+</div>
+{% else %}
+<p class="text-center">No data available for Genre graph.</p>
+{% endif %}
+
+{% endblock %}
